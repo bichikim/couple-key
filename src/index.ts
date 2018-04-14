@@ -42,19 +42,6 @@ export const stringMap = (
   return keyName
 }
 
-// export const mapAll = (
-//   keys: IKeys,
-//   mapInfo: IMapInfoPayload,
-//   options: IStringMapOption = {},
-// ): IKeys => {
-//   const resultKeys: IKeys = {}
-//   const {keyInfo = {}, valueInfo = {}} = mapInfo
-//   forEach(keys, (item: string, key: string) => {
-//     resultKeys[stringMap(key, keyInfo, options)] = stringMap(item, valueInfo, options)
-//   })
-//   return resultKeys
-// }
-
 const mapInfinity = (
   keys: IKeys,
   mapInfo: IMapInfoPayload,
